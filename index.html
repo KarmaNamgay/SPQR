@@ -1,0 +1,122 @@
+<html>
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fall of Rome</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>The Fall of Rome</h1>
+    </header>
+
+    <style>
+        body {
+            background-color: #fa2d2d;
+            font-family: 'Arial', sans-serif;
+            padding-bottom: 50px;
+            color: #f8ab1e;
+        }
+        
+        header {
+            background-color:  rgb(233, 89, 37);
+            color: #f8ab1e;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: rgb(233, 89, 37);
+        }
+        
+        nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        }
+     
+        nav li {
+        display: inline;
+        margin-right: 10px;
+        }
+    
+        #intro, #causes, #impact, #conclusion{
+        padding-left: 10px 10px 10px 10px;
+        font-size:20px;
+        }
+
+        button {
+        margin-bottom: 20px;
+        margin-left: 140px;
+        margin-right: 140px;                                            
+        color:#f8ab1e;
+        background-color: rgb(233, 37, 37);
+        width: 135px;
+        height: 50px;
+        animation-name: button;
+        animation-duration: 5s;
+        animation-delay: -2s;
+        animation-iteration-count: infinite;
+        }
+        
+        p{
+            font-size: 20px;
+        }
+
+        footer {
+            background-color: rgb(233, 89, 37);
+            color: #f8ab1e;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 2.5rem;   
+        }
+
+        @keyframes button {
+        25%   {background-color: rgb(233, 37, 37);}
+        50%  {background-color: rgb(233, 89, 37);}
+        75% {background-color: rgb(233, 37, 37);}
+        100% {background-color: rgb(233, 89, 37);}
+        }
+        
+        @media screen and (max-width: 600px) {
+            nav {
+                text-align: center;
+            }
+        
+            nav li {
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+        </style>
+        
+
+    <nav>
+        <button id="intro" onclick="intro_page()">Introduction</a>
+        <button id="causes" onclick="causes_page()">Causes of the Fall</a>
+        <button id="impact" onclick="impact_page()">Impact on Civilization</a>
+        <button id="conclusion" onclick="conclusion_page()">Conclusion</a>
+    </nav>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>
+                The fall of Rome, marking the decline and collapse of the Western Roman Empire around 476 CE, resulted from a complex interplay of political, economic, and military factors. Persistent political instability, economic decline with issues such as overreliance on slave labor and high taxation, military challenges from external invasions by Germanic tribes and Huns, the division of the empire, and internal conflicts all played pivotal roles.
+                The migrations and invasions of various barbarian groups further weakened Roman territories, leading to the eventual deposition of the last Roman emperor, Romulus Augustulus, by Odoacer.
+                The fall of Rome had profound consequences, ushering in a period of decentralization, cultural transformation with the spread of Christianity, and the transition from ancient to medieval times, while the Eastern Roman Empire, or Byzantine Empire, continued for centuries until the fall of Constantinople in 1453.
+            </p>
+        </section>
+    <footer>
+        <p>&copy; By Karma Namgay</p>
+    </footer>
+
+</body>
+
+</html>
